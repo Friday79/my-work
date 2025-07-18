@@ -8,7 +8,7 @@ header{
   display: block;
   width: 100%;
   height: 360px;
-  background-image: url("../images/rosie.jpg"); /* make sure this path matches your folder! */
+  background-image: url("../images/noimage.png"); /* make sure this path matches your folder! */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,13 +19,13 @@ header{
 
 /* background color for name and title*/
 .bg-color-name-title{
-    background-color:grey
+    background-color:#333;
 
 }
 
 .heading{
     margin-left: 10px;
-    padding: 60px;
+
 }
 
 /* Name and Title Styles */
@@ -33,15 +33,91 @@ header{
   font-family: 'Exo', sans-serif;
   font-size: 3rem;
   font-weight: 600;
-  color: #222;
-  margin: 20px 0 10px;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
 .title {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   font-weight: 300;
-  color: #555;
-  margin-top: 120px;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 120px;
 }
 
+.list-inline-item:not(:last-child) {
+  margin: 0;
+}
+
+.menucontainer {
+  font-size: 0;
+}
+
+#nav li {
+  font-size: 20px;
+}
+
+#nav {
+  margin: 0;
+}
+
+.menuitem {
+  height: 115px;
+  padding: 0;
+  text-align: center;
+}
+
+.menuitem a {
+  text-decoration: none;
+  min-height: 115px;
+  width: 100%;
+  color: #fff;
+}
+
+menuitem a i {
+  padding-top: 20px;
+  font-size: 28px;
+  color: #fafafa;
+  display: block;
+}
+
+
+.menuitem span {
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+
+.ui-menu-color-home {
+  background-color: #dc143c;
+}
+
+.ui-menu-color-resume {
+  background-color: #00ffff;
+}
+
+.ui-menu-color-contact {
+  background-color: #ffe4c4;
+}
+
+.ui-menu-color-download {
+  background-color: #000;
+}
+
+.menucontainer {
+  margin: 0;
+}
